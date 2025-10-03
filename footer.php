@@ -142,6 +142,7 @@
         <a href="https://facebook.com/profile.php?id=100063918199444" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://instagram.com/house_of_vayitree/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://wa.me/+919767734369" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.youtube.com/@sanyogeetakulkarni1898" target="_blank"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
 
@@ -160,9 +161,9 @@
     <!-- Column 3 -->
     <div class="footer-section">
       <h4>Contact</h4>
-      <p><i class="fas fa-envelope"></i> contact@sareestore.com</p>
-      <p><i class="fas fa-phone-alt"></i> +91-9767734369</p>
-      <p><i class="fas fa-map-marker-alt"></i> Nashik, Maharashtra, India</p>
+      <p><a href="mailto:houseofvayitree@gmail.com" class="me-3"><i class="fa fa-envelope"></i> houseofvayitree@gmail.com</a></p>
+      <p><a href="tel:+919767734369"><i class="fa fa-phone"></i> +91-9767734369</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> Shop no.3, Marshal Arcade, Opp.Racca Garden, Racca Colony, Saharanpur Road, Nashik-422002 </p>
     </div>
   </div>
 
@@ -173,6 +174,9 @@
   </div>
 
   <div class="footer-bottom">
-    <p>&copy; <?php echo date("Y"); ?> Vayitree. All rights reserved.</p>
+    <div class="col-md-6" style="display: flex;">
+        <div><p>&copy; <?php echo date("Y"); ?> Vayitree. All rights reserved.</p></div>
+        <div class="col-md-6"><p><a target="_blank" href="terms-condition.html" style="text-decoration: none;">Terms & Conditions</a></p></div>
+    </div>
   </div>
 </footer>
